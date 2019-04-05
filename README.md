@@ -8,19 +8,27 @@ This Smart Speaker is capable of performing Facial Recognition used for Biometri
 Biometrics based Alexa wakeup & interaction using ReSpeaker v2
 
 Far-field voice capture 
+
 AEC capabilities for higher wake-word detection accuracy
+
 Noise Suppression for better user interaction 
 
 Special features of Smart-Speaker 
 
 USB RGB LED Controller
+
 Deep Learning & Open CV based object detection
+
 Audio Processing based Alarm Detector 
+
 Open CV based Security System
+
 Web-based MJPEG Streaming
 
 ODAS and ReSpeaker v2
 
 Visualisation of noise and reverberation 
+
 Filtering by varying thresholds 
+
 Tracking & visualising multiple voice sources
