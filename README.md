@@ -2,7 +2,8 @@
 
     A modern Smart-speaker with an advanced microphone array, camera module interfaced with Pi capable of performing AI-based tasks  
 
-    This Smart Speaker is capable of performing Facial Recognition used for Biometrics based Speaker System wakeup in addition to   calling out the Alexa wake-word.  It also performs other Computer Vision based applications such as implementation of a camera-based security system. The Microphone array used to capture user’s voice has inbuilt Digital Signal Processing based voice algorithms which enables better capturing and understanding of user’s speech resulting in a successful full-duplex human-machine speech interaction  
+    This Smart Speaker is capable of performing Facial Recognition used for Biometrics based Speaker System wakeup in addition to   calling out the Alexa wake-word.  
+    It also performs other Computer Vision based applications such as implementation of a camera-based security system. The Microphone array used to capture user’s voice has inbuilt Digital Signal Processing based voice algorithms which enables better capturing and understanding of user’s speech resulting in a successful full-duplex human-machine speech interaction  
 
 
 Biometrics based Alexa wakeup & interaction using ReSpeaker v2
@@ -66,7 +67,7 @@ ODAS and ReSpeaker v2
     cd /home/pi/FYP-SS/Combined_Scripts/Alexa_JSON_Combined_LED_Security_Alarm
     sudo ./mjpg_streamer -i "./input_uvc.so -f 10 -r 640x320 -n -y" -o "./output_http.so -w ./www -p 80"
 
-# Commands to run the main script which runs other scripts based on user's command  
+# Commands to run the main script which initialtes scripts based on user's command  
 # Receive Json commands from Developer Account script 
     cd /home/pi/FYP-SS/Combined_Scripts/Alexa_JSON_Combined_LED_Security_Alarm
     source ~/.profile
