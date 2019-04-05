@@ -88,3 +88,20 @@ Commands to run the main script which initialtes scripts based on user's command
     cd /home/pi/FYP-SS/Combined_Scripts/Alexa_JSON_Combined_LED_Security_Alarm
     ./ngrok http 5000
     https://developer.amazon.com/home.html
+    
+Commands to callout
+
+	ask friday to turn on sky lights
+	ask friday to turn on crimson lights
+	ask friday to turn lights off
+
+	Ask friday what she sees
+
+	ask friday to activate alarm detector 
+	ask friday to deactivate alarm detector
+
+	ask friday to turn on security system 
+	ask friday to shut down security system
+
+	Ask friday to open eyes
+	Ask friday to close eyes
