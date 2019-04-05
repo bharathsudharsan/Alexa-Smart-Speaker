@@ -1,5 +1,8 @@
 # Alexa-Smart-Speaker brief description 
 
+Repo under construction.
+Will provide the scripts and video demonstration soon.
+
     A modern Smart-speaker with an advanced microphone array, camera module interfaced with Pi capable of performing AI-based tasks  
 
     This Smart Speaker is capable of performing Facial Recognition used for Biometrics based Speaker System wakeup in addition to   calling out the Alexa wake-word.  
