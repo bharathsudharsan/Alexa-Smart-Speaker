@@ -35,9 +35,9 @@ ODAS and ReSpeaker v2
 
     Tracking & visualising multiple voice sources
 
-#How to run the scripts sererately: 
+How to run the scripts sererately: 
 
-#Face Recog Script
+Face Recog Script
 
 	cd /home/pi/FYP-SS/Combined_Scripts/Face_Recog_Wakeup_Alexa_C_SDK
 	source ~/.profile
@@ -45,36 +45,38 @@ ODAS and ReSpeaker v2
 	python3 pi_face_recognition.py --cascade haarcascade_frontalface_default.xml \
 	    --encodings encodings.pickle
 
-#Alexa C++ SDK build 	
+Alexa C++ SDK build 	
 
     sudo bash /home/pi/AlexaDeviceSDK/startsample.sh
 
-# Fire Alarm Script  
+Fire Alarm Script  
+
     cd /home/pi/FYP-SS/Combined_Scripts/Alexa_JSON_Combined_LED_Security_Alarm
     python3 email_Fire_Alarm_detection_using_mic_array.py
 
-# Security System & email
+Security System & email
+
     cd /home/pi/FYP-SS/Combined_Scripts/Alexa_JSON_Combined_LED_Security_Alarm
     source ~/.profile
     workon cv
     python if_human_body_recog_then_email.py
 
-#Deep Learning & Open CV based object detection
+Deep Learning & Open CV based object detection
 
     cd /home/pi/FYP-SS/Combined_Scripts/Alexa_JSON_Combined_LED_Security_Alarm
     source ~/.profile
     workon cv
     python dl_img_frm_cam.py
 
-# M-JPEG Streamming
+M-JPEG Streamming
 
     sudo modprobe bcm2835-v4l2
     cd /home/pi/FYP-SS/Combined_Scripts/Alexa_JSON_Combined_LED_Security_Alarm
     sudo ./mjpg_streamer -i "./input_uvc.so -f 10 -r 640x320 -n -y" -o "./output_http.so -w ./www -p 80"
 
-# Commands to run the main script which initialtes scripts based on user's command  
-# Receive Json commands from Developer Account script 
+Commands to run the main script which initialtes scripts based on user's command  
 
+    # Receive Json commands from Developer Account script 
     cd /home/pi/FYP-SS/Combined_Scripts/Alexa_JSON_Combined_LED_Security_Alarm
     source ~/.profile
     workon cv
