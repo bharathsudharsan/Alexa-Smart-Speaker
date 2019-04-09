@@ -1,13 +1,9 @@
 # Alexa-Smart-Speaker brief description 
 
-Repo under construction.
-Will provide the scripts and video demonstration soon.
+Repo still under construction!
+All Scripts are made available in this repo. Its hard to find out the flow....Im working on creating a detailed Readme & will also provide a video demonstration soon.
 
-    A modern Smart-speaker with an advanced microphone array, camera module interfaced with Pi capable of performing AI-based tasks  
-
-    This Smart Speaker is capable of performing Facial Recognition used for Biometrics based Speaker System wakeup in addition to   calling out the Alexa wake-word.  
-    It also performs other Computer Vision based applications such as implementation of a camera-based security system. 
-    The Microphone array used to capture user’s voice has inbuilt Digital Signal Processing based voice algorithms which enables better capturing and understanding of user’s speech resulting in a successful full-duplex human-machine speech interaction  
+    Objective of this project is to design a modern Smart-speaker using commercial off the shelf advanced microphone array, camera module and a regular speaker interfaced to a single board computer. This Smart Speaker is capable of performing Biometrics (Facial Recognition) based system wakeup in addition to calling out the wake-word. The processor on the Microphone array used to capture user’s voice has inbuilt Digital Signal Processing based voice algorithms which is custom tuned for better capturing and understanding of user’s speech resulting in a successful full-duplex human-machine speech interaction. In addition to Biometrics based system wakeup and microphone array-based interaction, it’s also enabled with custom skills which can perform Audio processing, Artificial Intelligence & Computer Vision based tasks when requested by user. 
 
 
 Biometrics based Alexa wakeup & interaction using ReSpeaker v2
