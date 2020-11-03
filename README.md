@@ -2,7 +2,7 @@
 
 Objective of this project is to design a advanced Alexa smart speaker using commercial off the shelf advanced microphone array, camera module and a regular speaker interfaced to Raspberry Pi. This Smart Speaker is capable of performing Biometrics (Facial Recognition) based system wakeup in addition to calling out the wake-word. The processor on the Microphone array used to capture user’s voice has inbuilt Digital Signal Processing based voice algorithms which is custom tuned for better capturing and understanding of user’s speech resulting in a successful full-duplex human-machine speech interaction. In addition to Biometrics based system wakeup and microphone array-based interaction, it’s also enabled with custom skills which can perform Audio processing, Artificial Intelligence & Computer Vision based tasks when requested by user. 
 
-Basic Features of the this Alexa smart speaker prototype
+**Basic Features of the this Alexa smart speaker prototype**
 
     Biometrics based Alexa wakeup & interaction using ReSpeaker v2
 
@@ -12,7 +12,7 @@ Basic Features of the this Alexa smart speaker prototype
 
     Noise Suppression for better user interaction 
 
-Special features - Alexa, friday custom skills 
+**Special features - Alexa, friday custom skills** 
 
     USB RGB LED Controller
 
@@ -24,9 +24,9 @@ Special features - Alexa, friday custom skills
 
     Web-based MJPEG Streaming
 
-How to run the scripts sererately: 
+**Below are the commands to run the provided scrips:** 
 
-Face Recog Script
+**Face Recog Script**
 
 	cd /home/pi/FYP-SS/Combined_Scripts/Face_Recog_Wakeup_Alexa_C_SDK
 	source ~/.profile
@@ -34,36 +34,36 @@ Face Recog Script
 	python3 pi_face_recognition.py --cascade haarcascade_frontalface_default.xml \
 	    --encodings encodings.pickle
 
-Alexa C++ SDK build 	
+**Alexa C++ SDK build** 	
 
     sudo bash /home/pi/AlexaDeviceSDK/startsample.sh
 
-Fire Alarm Script  
+**Fire Alarm Script**  
 
     cd /home/pi/FYP-SS/Combined_Scripts/Alexa_JSON_Combined_LED_Security_Alarm
     python3 email_Fire_Alarm_detection_using_mic_array.py
 
-Security System & email
+**Security System & email**
 
     cd /home/pi/FYP-SS/Combined_Scripts/Alexa_JSON_Combined_LED_Security_Alarm
     source ~/.profile
     workon cv
     python if_human_body_recog_then_email.py
 
-Deep Learning & Open CV based object detection
+**Deep Learning & Open CV based object detection**
 
     cd /home/pi/FYP-SS/Combined_Scripts/Alexa_JSON_Combined_LED_Security_Alarm
     source ~/.profile
     workon cv
     python dl_img_frm_cam.py
 
-M-JPEG Streamming
+**M-JPEG Streamming**
 
     sudo modprobe bcm2835-v4l2
     cd /home/pi/FYP-SS/Combined_Scripts/Alexa_JSON_Combined_LED_Security_Alarm
     sudo ./mjpg_streamer -i "./input_uvc.so -f 10 -r 640x320 -n -y" -o "./output_http.so -w ./www -p 80"
 
-Commands to run the main script which initialtes scripts based on user's command  
+**Commands to run the main script which initialtes scripts based on user's command**  
 
     # Receive Json commands from Developer Account script 
     cd /home/pi/FYP-SS/Combined_Scripts/Alexa_JSON_Combined_LED_Security_Alarm
@@ -75,7 +75,7 @@ Commands to run the main script which initialtes scripts based on user's command
     ./ngrok http 5000
     https://developer.amazon.com/home.html
     
-Commands to callout
+**Commands to callout**
 
 	ask friday to turn on sky lights
 	ask friday to turn on crimson lights
@@ -92,7 +92,7 @@ Commands to callout
 	Ask friday to open eyes
 	Ask friday to close eyes
 
-If you use the code in this repository in your work, please cite these paper using the BibTex entry below.
+**If you use the code in this repository in your work, please cite these paper using the BibTex entry below**
 
 ```
 @inproceedings{sudharsan2019ai,
