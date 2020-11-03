@@ -127,10 +127,7 @@ If you use the code in this repository in your work, please cite these paper usi
   pages     = {305--316},
   publisher = {CEUR-WS.org},
   year      = {2019},
-  url       = {http://ceur-ws.org/Vol-2563/aics\_29.pdf},
-  timestamp = {Fri, 06 Mar 2020 12:47:03 +0100},
-  biburl    = {https://dblp.org/rec/conf/aics/SudharsanCA19.bib},
-  bibsource = {dblp computer science bibliography, https://dblp.org}
+  url       = {http://ceur-ws.org/Vol-2563/aics\_29.pdf}
 }
 
 ```
