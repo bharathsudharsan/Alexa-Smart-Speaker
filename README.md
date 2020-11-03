@@ -1,9 +1,10 @@
 # Alexa-Smart-Speaker brief description 
 
-Objective of this project is to design a modern Smart-speaker using commercial off the shelf advanced microphone array, camera module and a regular speaker interfaced to a single board computer. This Smart Speaker is capable of performing Biometrics (Facial Recognition) based system wakeup in addition to calling out the wake-word. The processor on the Microphone array used to capture user’s voice has inbuilt Digital Signal Processing based voice algorithms which is custom tuned for better capturing and understanding of user’s speech resulting in a successful full-duplex human-machine speech interaction. In addition to Biometrics based system wakeup and microphone array-based interaction, it’s also enabled with custom skills which can perform Audio processing, Artificial Intelligence & Computer Vision based tasks when requested by user. 
+Objective of this project is to design a advanced Alexa smart speaker using commercial off the shelf advanced microphone array, camera module and a regular speaker interfaced to Raspberry Pi. This Smart Speaker is capable of performing Biometrics (Facial Recognition) based system wakeup in addition to calling out the wake-word. The processor on the Microphone array used to capture user’s voice has inbuilt Digital Signal Processing based voice algorithms which is custom tuned for better capturing and understanding of user’s speech resulting in a successful full-duplex human-machine speech interaction. In addition to Biometrics based system wakeup and microphone array-based interaction, it’s also enabled with custom skills which can perform Audio processing, Artificial Intelligence & Computer Vision based tasks when requested by user. 
 
+Basic Features of the this Alexa smart speaker prototype
 
-Biometrics based Alexa wakeup & interaction using ReSpeaker v2
+    Biometrics based Alexa wakeup & interaction using ReSpeaker v2
 
     Far-field voice capture 
 
@@ -11,7 +12,7 @@ Biometrics based Alexa wakeup & interaction using ReSpeaker v2
 
     Noise Suppression for better user interaction 
 
-Special features of Smart-Speaker - Alexa, friday Custom Skill 
+Special features - Alexa, friday custom skills 
 
     USB RGB LED Controller
 
@@ -22,14 +23,6 @@ Special features of Smart-Speaker - Alexa, friday Custom Skill
     Open CV based Security System
 
     Web-based MJPEG Streaming
-
-ODAS and ReSpeaker v2
-
-    Visualisation of noise and reverberation 
-
-    Filtering by varying thresholds 
-
-    Tracking & visualising multiple voice sources
 
 How to run the scripts sererately: 
 
