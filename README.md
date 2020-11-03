@@ -101,3 +101,37 @@ Commands to callout
 
 	Ask friday to open eyes
 	Ask friday to close eyes
+
+If you use the code in this repository in your work, please cite these paper using the BibTex entry below.
+
+```
+@inproceedings{sudharsan2019ai,
+  title={AI Vision: Smart speaker design and implementation with object detection custom skill and advanced voice interaction capability},
+  author={Sudharsan, Bharath and Kumar, Sree Prem and Dhakshinamurthy, Rakesh},
+  booktitle={2019 11th International Conference on Advanced Computing (ICoAC)},
+  pages={97--102},
+  year={2019},
+  organization={IEEE}
+}
+
+@inproceedings{DBLP:conf/aics/SudharsanCA19,
+  author    = {Bharath Sudharsan and
+               Peter Corcoran and
+               Muhammad Intizar Ali},
+  title     = {Smart Speaker Design and Implementation with Biometric Authentication
+               and Advanced Voice Interaction Capability},
+  booktitle = {Proceedings for the 27th {AIAI} Irish Conference on Artificial Intelligence
+               and Cognitive Science, Galway, Ireland, December 5-6, 2019},
+  series    = {{CEUR} Workshop Proceedings},
+  volume    = {2563},
+  pages     = {305--316},
+  publisher = {CEUR-WS.org},
+  year      = {2019},
+  url       = {http://ceur-ws.org/Vol-2563/aics\_29.pdf},
+  timestamp = {Fri, 06 Mar 2020 12:47:03 +0100},
+  biburl    = {https://dblp.org/rec/conf/aics/SudharsanCA19.bib},
+  bibsource = {dblp computer science bibliography, https://dblp.org}
+}
+
+```
+
